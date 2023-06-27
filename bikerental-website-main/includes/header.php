@@ -4,23 +4,23 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-2">
-          <div class="logo"> <a href="index.php"><img src="assets/images/logo-header.png" alt="image"/></a> </div>
+          <div class="logo"> <a href="index.php"><img src="assets/images/logo.png" alt="image"/></a> </div>
         </div>
         <div class="col-sm-9 col-md-10">
           <div class="header_info">
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <p class="uppercase_text">EMAIL SUPPORT: </p>
-              <a href="#">bikerental777@gmail.com</a> </div>
+              <a href="#">bikerentalfake@gmail.com</a> </div>
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
               <p class="uppercase_text">CALL HOTLINE: </p>
-              <a href="#">+639999080395</a> </div>
+              <a href="#">+0636638092*fake</a> </div>
             <div class="social-follow">
               <ul>
-                <li><a target="_blank" href="https://bit.ly/bikerentalfb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="https://bit.ly/bikerentaltw"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="https://bit.ly/bikerentalyt"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
               </ul>
             </div>
    <?php   if(strlen($_SESSION['login'])==0)

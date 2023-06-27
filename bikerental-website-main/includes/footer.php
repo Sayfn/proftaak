@@ -45,19 +45,6 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
             <li><a target="_blank" href="admin/">Admin Login</a></li>
           </ul>
         </div>
-
-        <div class="col-md-3 col-sm-6">
-          <h6>SIGN UP FOR NEWSLETTER</h6>
-          <div class="newsletter-form">
-            <form method="post">
-              <div class="form-group">
-                <input type="email" name="subscriberemail" class="form-control newsletter-input" required placeholder="Enter your e-mail address" />
-              </div>
-              <button type="submit" name="emailsubscibe" class="btn btn-block">Subscribe Now<span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
-            </form>
-            <p class="subscribed-text">Our Subscribers get all the latest news.</p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -68,14 +55,14 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
           <div class="footer_widget">
             <p>Connect with us on:</p>
             <ul>
-              <li><a target="_blank" href="https://bit.ly/bikerentalfb"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a target="_blank" href="https://bit.ly/bikerentaltw"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-              <li><a target="_blank" href="https://bit.ly/bikerentalyt"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2022 Online Bike Rental Portal. Brought To You By <a target=”_blank” href="https://bit.ly/3CieNzw">BSIT</a>.</p>
+          <p class="copy-right">Copyright &copy; 2022 Online Bike Rental</a>.</p>
         </div>
       </div>
     </div>
