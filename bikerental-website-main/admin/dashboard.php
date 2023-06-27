@@ -147,24 +147,6 @@ $brands=$query3->rowCount();
 										<div class="panel panel-default">
 											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
-<?php 
-$sql4 ="SELECT id from tblsubscribers ";
-$query4 = $dbh -> prepare($sql4);
-$query4->execute();
-$results4=$query4->fetchAll(PDO::FETCH_OBJ);
-$subscribers=$query4->rowCount();
-?>
-													<div class="stat-panel-number h1 "><?php echo htmlentities($subscribers);?></div>
-													<div class="stat-panel-title text-uppercase">Subscribers</div>
-												</div>
-											</div>
-											<a href="manage-subscribers.php" class="block-anchor panel-footer text-center">FULL DETAILS <i class="fa fa-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="panel panel-default">
-											<div class="panel-body bk-success text-light">
-												<div class="stat-panel text-center">
 												<?php 
 $sql6 ="SELECT id from tblcontactusquery ";
 $query6 = $dbh -> prepare($sql6);;
