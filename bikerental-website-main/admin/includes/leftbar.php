@@ -26,8 +26,6 @@
 <li><a href="reg-users.php"><i class="fa fa-users"></i> Registered Users</a></li>
 
 <li><a href="manage-pages.php"><i class="fa fa-files-o"></i> Manage Pages</a></li>
-			
-<li><a href="manage-subscribers.php"><i class="fa fa-table"></i> Manage Subscribers</a></li>
 
 	</ul>
 </nav>
