@@ -7,15 +7,15 @@ if(strlen($_SESSION['alogin'])==0)
 header('location:index.php');
 }
 else{
-// Code for change password	
+
 if(isset($_POST['update']))
 {
-$vimage=$_FILES["img5"]["name"];
+$vimage1=$_FILES["img1"]["name"];
 $id=intval($_GET['imgid']);
-move_uploaded_file($_FILES["img5"]["tmp_name"],"img/vehicleimages/".$_FILES["img5"]["name"]);
-$sql="update tblvehicles set Vimage5=:vimage where id=:id";
+move_uploaded_file($_FILES["img1"]["tmp_name"],"img/vehicleimages/".$_FILES["img1"]["name"]);
+$sql="update tblvehicles set Vimage1=:vimage1 where id=:id";
 $query = $dbh->prepare($sql);
-$query->bindParam(':vimage',$vimage,PDO::PARAM_STR);
+$query->bindParam(':vimage1',$vimage1,PDO::PARAM_STR);
 $query->bindParam(':id',$id,PDO::PARAM_STR);
 $query->execute();
 
@@ -37,7 +37,7 @@ $msg="Image updated successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Bicycle Rental | Admin Update Image 5</title>
+	<title>Bicycle Rental | Admin Update Image 1</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -53,6 +53,8 @@ $msg="Image updated successfully";
 	<link rel="stylesheet" href="css/fileinput.min.css">
 	<!-- Awesome Bootstrap checkbox -->
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon"/>
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
   <style>
@@ -87,12 +89,12 @@ $msg="Image updated successfully";
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Bicycle Image 5 </h2>
+						<h2 class="page-title">Bicycle Image 1 </h2>
 
 						<div class="row">
 							<div class="col-md-10">
 								<div class="panel panel-default">
-									<div class="panel-heading">Bicycle Image 5 Details</div>
+									<div class="panel-heading">Bicycle Image 1 Details</div>
 									<div class="panel-body">
 										<form method="post" class="form-horizontal" enctype="multipart/form-data">
 										
@@ -103,10 +105,10 @@ $msg="Image updated successfully";
 
 
 <div class="form-group">
-												<label class="col-sm-4 control-label">Current Image5</label>
+												<label class="col-sm-4 control-label">Current Image1</label>
 <?php 
 $id=intval($_GET['imgid']);
-$sql ="SELECT Vimage5 from tblvehicles where tblvehicles.id=:id";
+$sql ="SELECT Vimage1 from tblvehicles where tblvehicles.id=:id";
 $query = $dbh -> prepare($sql);
 $query-> bindParam(':id', $id, PDO::PARAM_STR);
 $query->execute();
@@ -118,15 +120,15 @@ foreach($results as $result)
 {	?>
 
 <div class="col-sm-8">
-<img src="img/vehicleimages/<?php echo htmlentities($result->Vimage5);?>" width="300" height="200" style="border:solid 1px #000">
+<img src="img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" width="300" height="200" style="border:solid 1px #000">
 </div>
 <?php }}?>
 </div>
 
 											<div class="form-group">
-												<label class="col-sm-4 control-label">Upload New Image 5<span style="color:red">*</span></label>
+												<label class="col-sm-4 control-label">Upload New Image 1<span style="color:red">*</span></label>
 												<div class="col-sm-8">
-											<input type="file" name="img5" required>
+											<input type="file" name="img1" required>
 												</div>
 											</div>
 											<div class="hr-dashed"></div>

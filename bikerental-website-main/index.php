@@ -19,6 +19,7 @@ error_reporting(0);
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
 <link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css">
+<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
 <link href="assets/css/slick.css" rel="stylesheet">
 <link href="assets/css/bootstrap-slider.min.css" rel="stylesheet">
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">

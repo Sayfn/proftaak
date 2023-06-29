@@ -30,7 +30,8 @@ else{
 <!--FontAwesome Font Style -->
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-
+<!-- favicon -->
+<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
 
 <!-- Google-Font-->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
