@@ -55,6 +55,8 @@ $error="Something Went Wrong. Please Try Again";
 	<link rel="stylesheet" href="css/fileinput.min.css">
 	<!-- Awesome Bootstrap checkbox -->
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon"/>
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
   <style>

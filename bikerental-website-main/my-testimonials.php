@@ -30,7 +30,8 @@ else{
 <link href="assets/css/bootstrap-slider.min.css" rel="stylesheet">
 <!--FontAwesome Font Style -->
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
+<!-- favicon -->
+<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
 
 <!-- Google-Font-->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -73,7 +74,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/profile-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="assets/images/logo.png" alt="image">
       </div>
 
       <div class="dealer_info">

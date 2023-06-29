@@ -26,7 +26,8 @@ include('includes/config.php');
 <link href="assets/css/bootstrap-slider.min.css" rel="stylesheet">
 <!--FontAwesome Font Style -->
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
+<!-- favicon -->
+<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon"/>
 
 </head>
 <body>

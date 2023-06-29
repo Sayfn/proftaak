@@ -1,4 +1,3 @@
-
 <header>
   <div class="default-header">
     <div class="container">
@@ -11,11 +10,11 @@
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
               <p class="uppercase_text">EMAIL SUPPORT: </p>
-              <a href="#">bikerentalfake@gmail.com</a> </div>
+              <a href="#">bikesharing@gmail.com</a> </div>
             <div class="header_widgets">
               <div class="circle_icon"> <i class="fa fa-phone" aria-hidden="true"></i> </div>
               <p class="uppercase_text">CALL HOTLINE: </p>
-              <a href="#">+0636638092*fake</a> </div>
+              <a href="#">+31636638092</a> </div>
             <div class="social-follow">
               <ul>
                 <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
@@ -30,7 +29,7 @@
 <?php }
 else{
 
-echo "Welcome To Online Bike Rental Website!";
+echo "Welcome To Online Bike Sharing Website!";
  } ?>
           </div>
         </div>

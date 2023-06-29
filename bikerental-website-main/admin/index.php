@@ -42,6 +42,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 	<link rel="stylesheet" href="css/bootstrap-select.css">
 	<link rel="stylesheet" href="css/fileinput.min.css">
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
+	<link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon"/>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
