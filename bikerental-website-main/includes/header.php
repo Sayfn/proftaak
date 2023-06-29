@@ -17,8 +17,8 @@
               <a href="#">+31636638092</a> </div>
             <div class="social-follow">
               <ul>
-                <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/bikesharingprof"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href="https://linkedin.com/company/bikesharing"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
               </ul>
             </div>
    <?php   if(strlen($_SESSION['login'])==0)

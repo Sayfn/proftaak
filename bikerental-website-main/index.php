@@ -106,48 +106,7 @@ foreach($results as $result)
 </section>
 <!-- /List of bikes --> 
 
-<!-- Fun Facts-->
-<section class="fun-facts-section">
-  <div class="container div_zindex">
-    <div class="row">
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-user" aria-hidden="true"></i>2+</h2>
-            <p>Satisfied Customers</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-calendar" aria-hidden="true"></i>8+</h2>
-            <p>Month In Business</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m">
-          <div class="cell">
-            <h2><i class="fa fa-bicycle" aria-hidden="true"></i>10+</h2>
-            <p>Used Bicycle</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6 col-sm-3">
-        <div class="fun-facts-m"> 
-          <div class="cell">
-            <h2><i class="fa fa-bicycle" aria-hidden="true"></i>2+</h2>
-            <p>New Bicycle</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Dark Overlay-->
-  <div class="dark-overlay"></div>
-</section>
-<!-- /Fun Facts--> 
+
 
 
 <!--Testimonial -->

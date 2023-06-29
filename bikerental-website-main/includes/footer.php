@@ -23,13 +23,13 @@
           <div class="footer_widget">
             <p>Follow us:</p>
             <ul>
-              <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a target="_blank" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href="https://www.facebook.com/bikesharingprof"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href="https://linkedin.com/company/bikesharing"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2023 Bike Sharing</a>.</p>
+          <p class="copy-right">Copyright &copy; 2023 Bike Sharing - Noah, Melih en Sayfoullah.</p>
         </div>
       </div>
     </div>
