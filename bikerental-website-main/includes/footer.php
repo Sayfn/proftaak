@@ -21,16 +21,15 @@
       <div class="row">
         <div class="col-md-6 col-md-push-6 text-right">
           <div class="footer_widget">
-            <p>Connect with us on:</p>
+            <p>Follow us:</p>
             <ul>
               <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a target="_blank" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-              <li><a target="_blank" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2023 Online Bike Sharing</a>.</p>
+          <p class="copy-right">Copyright &copy; 2023 Bike Sharing</a>.</p>
         </div>
       </div>
     </div>

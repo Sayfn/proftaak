@@ -41,7 +41,7 @@ error_reporting(0);
           <div class="banner_content">
             <h1>Get a chance to ride your favorite bike.</h1>
             <p>We have the cheapest bicycle for you to choose.</p>
-            <a href="about-us.php?type=aboutus" class="btn">More Info <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
+            <a href="bicycle-list.php" class="btn">More Info <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
         </div>
       </div>
     </div>

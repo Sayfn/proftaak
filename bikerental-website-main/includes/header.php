@@ -18,8 +18,7 @@
             <div class="social-follow">
               <ul>
                 <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
               </ul>
             </div>
    <?php   if(strlen($_SESSION['login'])==0)
@@ -29,7 +28,7 @@
 <?php }
 else{
 
-echo "Welcome To Online Bike Sharing Website!";
+echo "Proftaak: Melh, Noah en Sayfoullah";
  } ?>
           </div>
         </div>
