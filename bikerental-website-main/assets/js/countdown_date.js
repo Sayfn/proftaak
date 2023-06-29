@@ -2,7 +2,7 @@
 	Countdown
 	-------------------------------------------------------------------*/
  
-	var endDate = "march 22, 2017";
+	var endDate = "June 29 , 2023";
 	$('.countdown').countdown({
 	  date: endDate,
 	  render: function(data) {

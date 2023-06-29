@@ -5,6 +5,9 @@
 - **Username:** test@gmail.com
   - **Password:** 1234
 
+- **Username:** test1@gmail.com
+  - **Password:** 1234
+
 - **Username:** email@gmail.com
   - **Password:** 1234
 

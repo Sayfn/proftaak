@@ -34,12 +34,6 @@ else{
 
 <!-- Google-Font-->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
 </head>
 <body>
 
@@ -47,9 +41,6 @@ else{
 
 <!--Header-->
 <?php include('includes/header.php');?>
-<!--Page Header-->
-<!-- /Header -->
-
 <!--Page Header-->
 <section class="page-header profile_page">
   <div class="container">
@@ -83,7 +74,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/profile-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="assets/images/logo.png" alt="image">
       </div>
 
       <div class="dealer_info">
