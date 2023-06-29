@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2022 Online Bike Rental</a>.</p>
+          <p class="copy-right">Copyright &copy; 2022 Online Bike Sharing</a>.</p>
         </div>
       </div>
     </div>
